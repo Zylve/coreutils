@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/vuk/projects/ccpp/coreutils/build",
-  "command": "/usr/bin/clang++ -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -I/home/vuk/projects/ccpp/coreutils/include/echo --config ../.vscode/clang.cfg -std=gnu++20 -o CMakeFiles/echo.dir/src/echo/main.cpp.o -c /home/vuk/projects/ccpp/coreutils/src/echo/main.cpp",
-  "file": "/home/vuk/projects/ccpp/coreutils/src/echo/main.cpp"
-}
-]
