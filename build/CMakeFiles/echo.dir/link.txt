@@ -1,0 +1,1 @@
+/usr/bin/clang++ CMakeFiles/echo.dir/src/echo/main.cpp.o -o /home/vuk/projects/ccpp/coreutils/bin/echo  /usr/lib/libboost_program_options.so.1.80.0 

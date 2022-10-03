@@ -1,0 +1,3 @@
+/home/vuk/projects/ccpp/coreutils/build/CMakeFiles/echo.dir
+/home/vuk/projects/ccpp/coreutils/build/CMakeFiles/edit_cache.dir
+/home/vuk/projects/ccpp/coreutils/build/CMakeFiles/rebuild_cache.dir
