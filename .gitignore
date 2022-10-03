@@ -1,3 +1,8 @@
+# Clangd cache
 .cache
+
+# Compiled executables (you can just compile it yourself)
 bin
+
+# Cmake build folder (you can just build it yourself)
 build
