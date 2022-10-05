@@ -8,13 +8,19 @@
 #endif
 
 int main(int argc, const char* argv[]) {
-    int backslashEscapes;
-    int args;
-    int newline;
+
+    if(argc == 1) {
+        std::cout << std::endl;
+        return 0;
+    }
+
+    int backslashEscapes = 0;
+    int args = 0;
+    int newline = 0;
 
     if(argv[1] == std::string("--help")) {
         // TODO write/copy help?
-        std::cout << "helpful help text that is supposed to help you";
+        std::cout << "helpful help text that is supposed to help you\n";
         return 0;
     }
 
