@@ -26,8 +26,14 @@ add_executable(echo ${ECHO_SRC})
 target_link_libraries(echo ${Boost_LIBRARIES})
 target_include_directories(echo PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/echo PUBLIC ${Boost_INCLUDE_DIR})
 
-# Echo
+# Sleep
 file(GLOB_RECURSE SLEEP_SRC src/sleep/*.cpp)
 add_executable(sleep ${SLEEP_SRC})
 target_link_libraries(sleep ${Boost_LIBRARIES})
 target_include_directories(sleep PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/sleep PUBLIC ${Boost_INCLUDE_DIR})
+
+# Cat
+file(GLOB_RECURSE CAT_SRC src/cat/*.cpp)
+add_executable(cat ${CAT_SRC})
+target_link_libraries(cat ${Boost_LIBRARIES})
+target_include_directories(cat PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/cat PUBLIC ${Boost_INCLUDE_DIR})
