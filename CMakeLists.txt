@@ -37,3 +37,9 @@ file(GLOB_RECURSE CAT_SRC src/cat/*.cpp)
 add_executable(cat ${CAT_SRC})
 target_link_libraries(cat ${Boost_LIBRARIES})
 target_include_directories(cat PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/cat PUBLIC ${Boost_INCLUDE_DIR})
+
+# Mkdir
+file(GLOB_RECURSE MKDIR_SRC src/mkdir/*.cpp)
+add_executable(mkdir ${MKDIR_SRC})
+target_link_libraries(mkdir ${Boost_LIBRARIES})
+target_include_directories(mkdir PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/mkdir PUBLIC ${Boost_INCLUDE_DIR})
